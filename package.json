@@ -1,0 +1,22 @@
+{
+  "name": "template-tailwind-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abdelbasset4/template-tailwind-2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abdelbasset4/template-tailwind-2/issues"
+  },
+  "homepage": "https://github.com/abdelbasset4/template-tailwind-2#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.3.2"
+  }
+}
