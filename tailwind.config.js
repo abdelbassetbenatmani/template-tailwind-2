@@ -30,6 +30,7 @@ module.exports = {
         secondary: "#13C296",
         "body-color": "#637381",
         warning: "#FBBF24",
+        "gray-background" : "#f3f4fe"
       },
       fontFamily:{
         inter:['Inter', 'sans-serif']
