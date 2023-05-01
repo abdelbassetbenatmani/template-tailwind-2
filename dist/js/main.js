@@ -13,9 +13,9 @@ window.addEventListener('scroll', function() {
       }
     // === logo change
     if (navBar.classList.contains("sticky")) {
-        logo.src = "./images/logo.svg";
+        logo.src = "./images/logo/logo.svg";
       } else {
-        logo.src = "./images/logo-white.svg";
+        logo.src = "./images/logo/logo-white.svg";
       }
   });
 
