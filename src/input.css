@@ -23,6 +23,9 @@
     @apply bg-primary text-white hover:bg-dark hover:text-white;
 }
 
+.show{
+  @apply right-3
+}
 
 /* Hamburger Menu */
 .hamburger {
