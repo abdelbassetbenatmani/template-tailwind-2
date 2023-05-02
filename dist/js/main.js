@@ -2,6 +2,8 @@ const logo = document.querySelector('.logo img')
 const list = document.querySelector('nav ul')
 const btn = document.getElementById('menu-btn')
 const scrollToTop = document.querySelector('.scroll-to-top')
+const faqClick = document.querySelectorAll('.faq-click')
+const smallNav = document.querySelector('.small-nav')
 
 window.addEventListener('scroll', function() {
     const navBar = document.getElementById('navbar');
@@ -32,7 +34,17 @@ scrollToTop.onclick = function(){
 }
 btn.addEventListener('click', () => {
     btn.classList.toggle('open')
-    nav.classList.toggle('flex')
-    nav.classList.toggle('hidden')
+    smallNav.classList.toggle('show-nav')
+    // nav.classList.toggle('flex')
+    // nav.classList.toggle('hidden')
 })  
   
+
+
+// faq click show content
+faqClick.forEach((faq)=>{
+  faq.addEventListener('click', (e) => {
+    // console.log(faq.nextElementSibling);
+    faq.nextElementSibling.classList.toggle('hidden')
+  })
+})
