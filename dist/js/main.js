@@ -39,7 +39,8 @@ btn.addEventListener('click', () => {
     // nav.classList.toggle('hidden')
 })  
   
-
+// ===== wow js
+AOS.init();
 
 // faq click show content
 faqClick.forEach((faq)=>{
